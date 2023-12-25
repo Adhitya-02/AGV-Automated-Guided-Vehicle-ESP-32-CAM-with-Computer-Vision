@@ -4,6 +4,8 @@
 
 This project implements an Automated Guided Vehicle (AGV) system using ESP-32 CAM equipped with a camera and computer vision capabilities. The ESP32 CAM streams video using the Real-Time Streaming Protocol (RTSP), which is accessed via a Python script through Visual Studio Code (VS Code). The objective is to calculate the position of an object in the camera frame based on the error of the x and y-axis values relative to the center point. Subsequently, these calculated x and y values are sent to an ESP32 DevKit, allowing precise control of the AGV's motors to navigate towards the object.
 
+[![AGV ESP-32 CAM with Computer Vision](/assets/video-screenshot.jpg)](https://youtu.be/shZ0XA6sdwA "AGV ESP-32 CAM with Computer Vision - Click to Watch!")
+
 ## Features
 
 - **ESP32 CAM RTSP Streaming:** The ESP32 CAM serves as the AGV's eyes, streaming real-time video through RTSP, providing a live feed of its surroundings.
